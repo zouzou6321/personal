@@ -3,6 +3,7 @@ import requests
 from klines.models import RealTimeStockData
 import itertools
 from celery import task
+from utils.StockNumber import StockNumber
 
 
 class StockData:
@@ -24,7 +25,6 @@ class StockData:
 			stock_datas.append(stock_data)
 		return stock_datas
 
-	@task
 	def load_all_stock_data(self, quotes=[]):
 		stock_data_list = []
 		count = 0
@@ -33,3 +33,14 @@ class StockData:
 			stock_data_list = list(itertools.chain(stock_data_list, self.__get_stock_data_one_per(quotes[count: count + self.per_size if count + self.per_size < quote_count else quote_count])))
 			count += self.per_size
 		RealTimeStockData.objects.bulk_create(stock_data_list)
+
+
+@task
+def load_func():
+	stock_number = StockNumber()
+	stock_numbers = stock_number.get_all_stock_number()
+	# stock_numbers = stock_number.load_all_stock_number()
+	# for stock_number in stock_numbers:
+	# 	print(stock_number)
+	stock_data = StockData()
+	stock_data.load_all_stock_data(stock_numbers)
