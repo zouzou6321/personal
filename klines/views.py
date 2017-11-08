@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from utils.StockData import StockData
 from django.http import HttpResponse
 from utils.StockNumber import StockNumber
