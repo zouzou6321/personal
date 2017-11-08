@@ -28,7 +28,8 @@ SECRET_KEY = '_cw-&v^m8yn@@x#(a9t++qu7q3uf5967zea%#w@3s%+#g$-z%2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['47.97.46.29',
+                 '127.0.0.1']
 
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 
