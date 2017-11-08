@@ -18,6 +18,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 import djcelery
 djcelery.setup_loader()
 BROKER_URL = 'django://'
+CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+CELERY_RESULT_BACKEND = 'djcelery.backends.database:DatabaseBackend'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -30,8 +32,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['47.97.46.29',
                  '127.0.0.1']
-
-CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 
 # Application definition
 
