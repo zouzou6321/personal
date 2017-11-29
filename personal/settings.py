@@ -33,8 +33,9 @@ SECRET_KEY = 'ho_5^a(6@$0b(k_p4t*tkdo-15j4av1wjxire1k1uqymql%0hs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['47.97.46.29',
-                 '127.0.0.1']
+ALLOWED_HOSTS = ['47.93.254.47',
+                 '127.0.0.1',
+		 'personal']
 
 
 # Application definition
@@ -104,7 +105,7 @@ DATABASES = {
         'NAME': 'stock',
         'USER': 'root',
         'PASSWORD': '123456',
-        "HOST": "47.97.46.29",
+        "HOST": "47.93.254.47",
     }
 }
 
