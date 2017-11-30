@@ -26,14 +26,12 @@ class StockData:
 		return stock_datas
 
 	def load_all_stock_data(self, quotes=[]):
-		stock_data_list = []
 		count = 0
 		quote_count = len(quotes)
 		while count < quote_count:
-			stock_data_list = list(itertools.chain(stock_data_list, self.__get_stock_data_one_per(quotes[count: count + self.per_size if count + self.per_size < quote_count else quote_count])))
+			RealTimeStockData.objects.bulk_create(self.__get_stock_data_one_per(
+				quotes[count: count + self.per_size if count + self.per_size < quote_count else quote_count]))
 			count += self.per_size
-		RealTimeStockData.objects.bulk_create(stock_data_list)
-
 
 @task
 def load_func():

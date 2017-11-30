@@ -1,17 +1,25 @@
 # -*- coding:utf-8 -*-
-from utils.StockData import StockData
 from django.http import HttpResponse
-from utils.StockNumber import StockNumber
+from klines.models import RealTimeStockData
+import itertools
+import datetime
+from utils.StockData import load_func
 # Create your views here.
 
 
-def test(request):
-	stock_number = StockNumber()
-	stock_numbers = stock_number.get_all_stock_number()
-	# stock_numbers = stock_number.load_all_stock_number()
-	# for stock_number in stock_numbers:
-	# 	print(stock_number)
-	stock_data = StockData()
-	stock_data.load_all_stock_data(stock_numbers)
-	return HttpResponse("111")
+def swing_top(request):
+	load_func()
+	today = datetime.date.today()
+	increase = RealTimeStockData.objects.raw(
+		"select * from klines_realtimestockdata where create_time>'" + str(today) + " 15:00:00' and price_today_open > 0 order by (price_today_open - price_now) / price_today_open desc limit 10")
+	decrease = RealTimeStockData.objects.raw(
+		"select * from klines_realtimestockdata where create_time>'" + str(today) + " 15:00:00' and price_today_open > 0 order by (price_today_open - price_now) / price_today_open asc limit 10")
 
+	res = []
+	for a in increase:
+		print a
+		res.append(a)
+	for a in decrease:
+		print a
+		res.append(a)
+	return HttpResponse('1111')
