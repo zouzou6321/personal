@@ -30,7 +30,6 @@ class StockNumber:
 
 		return data_info
 
-	@task
 	def load_all_stock_number(self):
 		print("load_all_stock_number start..." + "\n")
 
@@ -61,3 +60,9 @@ class StockNumber:
 
 	def get_all_stock_number(self):
 		return list(Quote.objects.all())
+
+
+@task
+def load_all_stock_number():
+	stock_number = StockNumber()
+	stock_number.load_all_stock_number()

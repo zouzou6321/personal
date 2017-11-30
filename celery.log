@@ -1,0 +1,113 @@
+[2017-11-29 09:08:46,842: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2017-11-29 09:08:46,888: INFO/MainProcess] Connected to django://localhost//
+[2017-11-29 09:08:46,956: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:133: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-11-29 09:08:46,956: WARNING/MainProcess] celery@iZ2zei6h2fn10n0gh5q7wcZ ready.
+[2017-11-29 09:14:56,826: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2017-11-29 09:14:56,871: INFO/MainProcess] Connected to django://localhost:8000//
+[2017-11-29 09:14:56,926: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:133: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-11-29 09:14:56,927: WARNING/MainProcess] celery@iZ2zei6h2fn10n0gh5q7wcZ ready.
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 364, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 338, in execute
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 103, in <module>
+    class Group(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 162, in __new__
+    new_class.add_to_class(obj_name, obj)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 325, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related.py", line 1648, in contribute_to_class
+    self.remote_field.through = create_many_to_many_intermediary_model(self, cls)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related.py", line 1104, in create_many_to_many_intermediary_model
+    'verbose_name': _('%(from)s-%(to)s relationship') % {'from': from_, 'to': to},
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 162, in __mod__
+    return six.text_type(self) % rhs
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 119, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 89, in ugettext
+    return _trans.ugettext(message)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 345, in ugettext
+    return do_translate(message, 'ugettext')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 321, in do_translate
+    _default = _default or translation(settings.LANGUAGE_CODE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 228, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 134, in __init__
+    raise IOError("No translation files found for default language %s." % settings.LANGUAGE_CODE)
+IOError: No translation files found for default language Asia/Shanghai.
+[2017-11-30 10:42:09,089: INFO/MainProcess] Connected to django://localhost:8000//
+[2017-11-30 10:42:09,154: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:133: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-11-30 10:42:09,155: WARNING/MainProcess] celery@iZ2zei6h2fn10n0gh5q7wcZ ready.
+[2017-11-30 10:44:45,623: INFO/MainProcess] Connected to django://localhost//
+[2017-11-30 10:44:45,716: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:133: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-11-30 10:44:45,716: WARNING/MainProcess] celery@iZ2zei6h2fn10n0gh5q7wcZ ready.
+[2017-11-30 10:48:31,934: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-11-30 10:48:31,943: INFO/MainProcess] mingle: searching for neighbors
+[2017-11-30 10:48:32,951: INFO/MainProcess] mingle: all alone
+[2017-11-30 10:48:33,132: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:133: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-11-30 10:48:33,132: WARNING/MainProcess] celery@iZ2zei6h2fn10n0gh5q7wcZ ready.
+[2017-11-30 10:48:36,750: INFO/MainProcess] Events of group {task} enabled by remote.
+[2017-11-30 11:00:00,013: INFO/MainProcess] Received task: utils.StockNumber.load_all_stock_number[7b168d42-7ac9-4b7c-ac48-3e377d6de5c8]
+[2017-11-30 11:00:00,061: ERROR/MainProcess] Task utils.StockNumber.load_all_stock_number[7b168d42-7ac9-4b7c-ac48-3e377d6de5c8] raised unexpected: TypeError('load_all_stock_number() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: load_all_stock_number() takes exactly 1 argument (0 given)
+[2017-11-30 11:30:00,006: INFO/MainProcess] Received task: utils.StockData.load_func[4a88899b-5a2a-4e56-a570-dcd247cc8a9f]
+[2017-11-30 11:30:00,041: INFO/MainProcess] Task utils.StockData.load_func[4a88899b-5a2a-4e56-a570-dcd247cc8a9f] succeeded in 0.0329376650043s: None
+[2017-11-30 14:00:00,006: INFO/MainProcess] Received task: utils.StockData.load_func[4b8d0876-bfb9-449b-a0d3-f31b9f5c60a8]
+[2017-11-30 14:00:00,033: INFO/MainProcess] Task utils.StockData.load_func[4b8d0876-bfb9-449b-a0d3-f31b9f5c60a8] succeeded in 0.0255060219934s: None

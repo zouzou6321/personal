@@ -1,0 +1,749 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 29, 2017 - 09:08:47
+Django version 1.11.7, using settings 'personal.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 29, 2017 - 09:14:57
+Django version 1.11.7, using settings 'personal.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[29/Nov/2017 10:23:23] "GET /cache/global/img/gs.gif HTTP/1.0" 400 62399
+Invalid HTTP_HOST header: 'clientapi.ipip.net'. You may need to add u'clientapi.ipip.net' to ALLOWED_HOSTS.
+[29/Nov/2017 10:28:26] "GET /echo.php?info=1234567890 HTTP/1.0" 400 62566
+[29/Nov/2017 11:24:18] "GET / HTTP/1.0" 200 38
+Not Found: /rs-status
+[29/Nov/2017 13:50:53] "GET /rs-status HTTP/1.0" 404 3343
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:23] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:24] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:24] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:24] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:24] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:24] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:24] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:24] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:24] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 13:55:24] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /ganglia/index.php
+[29/Nov/2017 13:57:11] "GET /ganglia/index.php HTTP/1.0" 404 3367
+Not Found: /index.php
+[29/Nov/2017 14:03:52] "GET /index.php HTTP/1.0" 404 3343
+Not Found: /jobs/
+[29/Nov/2017 14:07:28] "GET /jobs/ HTTP/1.0" 404 3331
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[29/Nov/2017 14:10:54] "GET /cache/global/img/gs.gif HTTP/1.0" 400 62395
+[29/Nov/2017 14:18:29] "GET / HTTP/1.0" 200 41
+Not Found: /xcdlyjewoznt
+[29/Nov/2017 14:21:41] "POST /xcdlyjewoznt HTTP/1.0" 404 3353
+Not Found: /xcdlyjewoznt
+[29/Nov/2017 14:21:41] "GET /xcdlyjewoznt HTTP/1.0" 404 3352
+Not Found: /xcdlyjewoznt
+[29/Nov/2017 14:21:41] "DELETE /xcdlyjewoznt HTTP/1.0" 404 3355
+[29/Nov/2017 14:25:21] "GET / HTTP/1.0" 200 41
+[29/Nov/2017 14:30:45] "GET / HTTP/1.0" 200 41
+Not Found: /hwi/
+[29/Nov/2017 14:33:36] "GET /hwi/ HTTP/1.0" 404 3328
+[29/Nov/2017 14:41:02] "GET / HTTP/1.0" 200 41
+Not Found: /master-status
+[29/Nov/2017 14:41:21] "GET /master-status HTTP/1.0" 404 3355
+Not Found: /dfshealth.html
+[29/Nov/2017 14:41:24] "GET /dfshealth.html HTTP/1.0" 404 3358
+Not Found: /http://47.93.254.47:8080
+[29/Nov/2017 14:41:32] "GET /http://47.93.254.47:8080 HTTP/1.0" 404 3388
+Not Found: /http://47.93.254.47:8090
+[29/Nov/2017 14:41:38] "GET /http://47.93.254.47:8090 HTTP/1.0" 404 3388
+Not Found: /clusters.jsf
+[29/Nov/2017 14:41:46] "GET /clusters.jsf HTTP/1.0" 404 3352
+Not Found: /about/
+[29/Nov/2017 14:41:53] "GET /about/ HTTP/1.0" 404 3334
+[29/Nov/2017 14:42:01] "GET / HTTP/1.0" 200 41
+Not Found: /jenkins/
+[29/Nov/2017 14:42:09] "GET /jenkins/ HTTP/1.0" 404 3340
+Not Found: /zabbix/
+[29/Nov/2017 14:42:11] "GET /zabbix/ HTTP/1.0" 404 3337
+[29/Nov/2017 14:42:14] "GET / HTTP/1.0" 200 41
+Not Found: /solr/
+[29/Nov/2017 14:42:17] "GET /solr/ HTTP/1.0" 404 3331
+[29/Nov/2017 14:42:24] "GET / HTTP/1.0" 200 41
+Not Found: /info
+[29/Nov/2017 14:43:12] "GET /info HTTP/1.0" 404 3328
+[29/Nov/2017 15:04:37] "GET / HTTP/1.0" 200 38
+Not Found: /rs-status
+[29/Nov/2017 15:06:25] "GET /rs-status HTTP/1.0" 404 3343
+Not Found: /ganglia/index.php
+[29/Nov/2017 15:07:10] "GET /ganglia/index.php HTTP/1.0" 404 3367
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:10] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:10] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:10] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:10] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:10] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:07:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /index.php
+[29/Nov/2017 15:07:40] "GET /index.php HTTP/1.0" 404 3343
+Not Found: /jobs/
+[29/Nov/2017 15:10:16] "GET /jobs/ HTTP/1.0" 404 3331
+Not Found: /warning
+[29/Nov/2017 15:11:19] "GET /warning HTTP/1.0" 404 3337
+Not Found: /pleasereadthis
+[29/Nov/2017 15:13:26] "GET /pleasereadthis HTTP/1.0" 404 3358
+[29/Nov/2017 15:15:51] "GET / HTTP/1.0" 200 41
+Not Found: /sxarhwlcdtjy
+[29/Nov/2017 15:17:09] "POST /sxarhwlcdtjy HTTP/1.0" 404 3353
+Not Found: /sxarhwlcdtjy
+[29/Nov/2017 15:17:09] "GET /sxarhwlcdtjy HTTP/1.0" 404 3352
+Not Found: /sxarhwlcdtjy
+[29/Nov/2017 15:17:09] "DELETE /sxarhwlcdtjy HTTP/1.0" 404 3355
+[29/Nov/2017 15:17:49] "GET / HTTP/1.0" 200 41
+[29/Nov/2017 15:18:25] "GET / HTTP/1.0" 200 41
+[29/Nov/2017 15:25:33] "GET / HTTP/1.0" 200 41
+Not Found: /http://47.93.254.47:8081
+[29/Nov/2017 15:28:38] "GET /http://47.93.254.47:8081 HTTP/1.0" 404 3388
+[29/Nov/2017 15:30:23] "GET / HTTP/1.0" 200 41
+[29/Nov/2017 15:31:26] "GET / HTTP/1.0" 200 41
+[29/Nov/2017 15:31:44] "GET / HTTP/1.0" 200 41
+Not Found: /please_read/_search
+[29/Nov/2017 15:33:15] "GET /please_read/_search HTTP/1.0" 404 3373
+Not Found: /dfshealth.jsp
+[29/Nov/2017 15:38:48] "GET /dfshealth.jsp HTTP/1.0" 404 3355
+Not Found: /dfshealth.jsp
+[29/Nov/2017 15:38:54] "GET /dfshealth.jsp HTTP/1.0" 404 3355
+Not Found: /hadoop/dfshealth.jsp
+[29/Nov/2017 15:39:33] "GET /hadoop/dfshealth.jsp HTTP/1.0" 404 3376
+[29/Nov/2017 15:41:48] "GET / HTTP/1.0" 200 38
+Not Found: /hadoop/dfshealth.jsp
+[29/Nov/2017 15:41:59] "GET /hadoop/dfshealth.jsp HTTP/1.0" 404 3376
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:18] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:19] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:19] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:19] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:19] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:19] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:19] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:19] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:19] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 15:48:19] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Invalid HTTP_HOST header: 'www.wujieliulan.com'. You may need to add u'www.wujieliulan.com' to ALLOWED_HOSTS.
+[29/Nov/2017 16:14:19] "GET / HTTP/1.0" 400 63045
+Invalid HTTP_HOST header: 'www.minghui.org'. You may need to add u'www.minghui.org' to ALLOWED_HOSTS.
+[29/Nov/2017 16:14:20] "GET / HTTP/1.0" 400 63148
+Invalid HTTP_HOST header: 'boxun.com'. You may need to add u'boxun.com' to ALLOWED_HOSTS.
+[29/Nov/2017 16:14:21] "GET / HTTP/1.0" 400 62891
+Invalid HTTP_HOST header: 'www.123cha.com'. You may need to add u'www.123cha.com' to ALLOWED_HOSTS.
+[29/Nov/2017 16:14:23] "GET / HTTP/1.0" 400 63003
+Invalid HTTP_HOST header: 'www.rfa.org'. You may need to add u'www.rfa.org' to ALLOWED_HOSTS.
+[29/Nov/2017 16:14:23] "GET /english/ HTTP/1.0" 400 63174
+Invalid HTTP_HOST header: 'www.ip.cn'. You may need to add u'www.ip.cn' to ALLOWED_HOSTS.
+[29/Nov/2017 16:14:26] "GET / HTTP/1.0" 400 62895
+Invalid HTTP_HOST header: 'www.epochtimes.com'. You may need to add u'www.epochtimes.com' to ALLOWED_HOSTS.
+[29/Nov/2017 16:14:27] "GET / HTTP/1.0" 400 63030
+[29/Nov/2017 16:15:21] "GET / HTTP/1.0" 200 41
+Invalid HTTP_HOST header: '39.104.9.32:80'. You may need to add u'39.104.9.32' to ALLOWED_HOSTS.
+[29/Nov/2017 16:22:44] "GET / HTTP/1.0" 400 61992
+[29/Nov/2017 16:25:23] "GET / HTTP/1.0" 200 41
+[29/Nov/2017 16:26:30] "GET / HTTP/1.0" 200 41
+Not Found: /eimhwpxbyujf
+[29/Nov/2017 16:30:04] "POST /eimhwpxbyujf HTTP/1.0" 404 3353
+Not Found: /eimhwpxbyujf
+[29/Nov/2017 16:30:04] "GET /eimhwpxbyujf HTTP/1.0" 404 3352
+Not Found: /eimhwpxbyujf
+[29/Nov/2017 16:30:04] "DELETE /eimhwpxbyujf HTTP/1.0" 404 3355
+Not Found: /hwi/
+[29/Nov/2017 16:34:57] "GET /hwi/ HTTP/1.0" 404 3328
+[29/Nov/2017 16:48:28] "GET / HTTP/1.0" 200 41
+Not Found: /master-status
+[29/Nov/2017 16:56:16] "GET /master-status HTTP/1.0" 404 3355
+Not Found: /dfshealth.html
+[29/Nov/2017 16:58:44] "GET /dfshealth.html HTTP/1.0" 404 3358
+Not Found: /http://47.93.254.47:8080
+[29/Nov/2017 17:00:01] "GET /http://47.93.254.47:8080 HTTP/1.0" 404 3388
+Not Found: /http://47.93.254.47:8090
+[29/Nov/2017 17:00:07] "GET /http://47.93.254.47:8090 HTTP/1.0" 404 3388
+Not Found: /clusters.jsf
+[29/Nov/2017 17:00:15] "GET /clusters.jsf HTTP/1.0" 404 3352
+Not Found: /about/
+[29/Nov/2017 17:00:23] "GET /about/ HTTP/1.0" 404 3334
+[29/Nov/2017 17:00:32] "GET / HTTP/1.0" 200 41
+Not Found: /jenkins/
+[29/Nov/2017 17:00:41] "GET /jenkins/ HTTP/1.0" 404 3340
+Not Found: /zabbix/
+[29/Nov/2017 17:00:53] "GET /zabbix/ HTTP/1.0" 404 3337
+[29/Nov/2017 17:00:55] "GET / HTTP/1.0" 200 41
+Not Found: /solr/
+[29/Nov/2017 17:00:58] "GET /solr/ HTTP/1.0" 404 3331
+[29/Nov/2017 17:01:00] "GET / HTTP/1.0" 200 41
+Not Found: /info
+[29/Nov/2017 17:01:18] "GET /info HTTP/1.0" 404 3328
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[29/Nov/2017 17:11:56] "GET / HTTP/1.0" 400 62118
+Not Found: /warning
+[29/Nov/2017 17:30:05] "GET /warning HTTP/1.0" 404 3337
+Not Found: /pleasereadthis
+[29/Nov/2017 17:34:16] "GET /pleasereadthis HTTP/1.0" 404 3358
+Invalid HTTP_HOST header: u'localhost:8000'. You may need to add u'localhost' to ALLOWED_HOSTS.
+[29/Nov/2017 17:35:17] "GET / HTTP/1.0" 400 61719
+Not Found: /please_read/_search
+[29/Nov/2017 17:36:23] "GET /please_read/_search HTTP/1.0" 404 3373
+Not Found: /dfshealth.jsp
+[29/Nov/2017 17:39:50] "GET /dfshealth.jsp HTTP/1.0" 404 3355
+Not Found: /hadoop/dfshealth.jsp
+[29/Nov/2017 17:43:14] "GET /hadoop/dfshealth.jsp HTTP/1.0" 404 3376
+Invalid HTTP_HOST header: u'localhost:8000'. You may need to add u'localhost' to ALLOWED_HOSTS.
+[29/Nov/2017 18:17:47] "GET / HTTP/1.0" 400 61717
+[29/Nov/2017 20:03:39] "GET / HTTP/1.0" 200 38
+Not Found: /rs-status
+[29/Nov/2017 20:03:57] "GET /rs-status HTTP/1.0" 404 3343
+Not Found: /ganglia/index.php
+[29/Nov/2017 20:04:11] "GET /ganglia/index.php HTTP/1.0" 404 3367
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:11] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[29/Nov/2017 20:04:12] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /index.php
+[29/Nov/2017 20:05:29] "GET /index.php HTTP/1.0" 404 3343
+Not Found: /jobs/
+[29/Nov/2017 20:06:24] "GET /jobs/ HTTP/1.0" 404 3331
+[29/Nov/2017 20:08:57] "GET / HTTP/1.0" 200 41
+[29/Nov/2017 20:10:11] "GET / HTTP/1.0" 200 41
+Not Found: /pnjawsgyiqor
+[29/Nov/2017 20:10:25] "POST /pnjawsgyiqor HTTP/1.0" 404 3353
+Not Found: /pnjawsgyiqor
+[29/Nov/2017 20:10:25] "GET /pnjawsgyiqor HTTP/1.0" 404 3352
+Not Found: /pnjawsgyiqor
+[29/Nov/2017 20:10:25] "DELETE /pnjawsgyiqor HTTP/1.0" 404 3355
+[29/Nov/2017 20:10:29] "GET / HTTP/1.0" 200 41
+Not Found: /hwi/
+[29/Nov/2017 20:11:19] "GET /hwi/ HTTP/1.0" 404 3328
+[29/Nov/2017 20:14:27] "GET / HTTP/1.0" 200 41
+Not Found: /master-status
+[29/Nov/2017 20:17:57] "GET /master-status HTTP/1.0" 404 3355
+Not Found: /dfshealth.html
+[29/Nov/2017 20:18:22] "GET /dfshealth.html HTTP/1.0" 404 3358
+Not Found: /http://47.93.254.47:8080
+[29/Nov/2017 20:18:55] "GET /http://47.93.254.47:8080 HTTP/1.0" 404 3388
+Not Found: /http://47.93.254.47:8081
+[29/Nov/2017 20:19:00] "GET /http://47.93.254.47:8081 HTTP/1.0" 404 3388
+Not Found: /http://47.93.254.47:8090
+[29/Nov/2017 20:19:06] "GET /http://47.93.254.47:8090 HTTP/1.0" 404 3388
+Not Found: /clusters.jsf
+[29/Nov/2017 20:19:17] "GET /clusters.jsf HTTP/1.0" 404 3352
+Not Found: /about/
+[29/Nov/2017 20:19:23] "GET /about/ HTTP/1.0" 404 3334
+[29/Nov/2017 20:19:38] "GET / HTTP/1.0" 200 41
+Not Found: /jenkins/
+[29/Nov/2017 20:19:46] "GET /jenkins/ HTTP/1.0" 404 3340
+Not Found: /zabbix/
+[29/Nov/2017 20:19:55] "GET /zabbix/ HTTP/1.0" 404 3337
+[29/Nov/2017 20:20:12] "GET / HTTP/1.0" 200 41
+Not Found: /solr/
+[29/Nov/2017 20:20:15] "GET /solr/ HTTP/1.0" 404 3331
+[29/Nov/2017 20:20:19] "GET / HTTP/1.0" 200 41
+Not Found: /info
+[29/Nov/2017 20:20:27] "GET /info HTTP/1.0" 404 3328
+Not Found: /warning
+[29/Nov/2017 20:21:11] "GET /warning HTTP/1.0" 404 3337
+Not Found: /pleasereadthis
+[29/Nov/2017 20:21:14] "GET /pleasereadthis HTTP/1.0" 404 3358
+Not Found: /please_read/_search
+[29/Nov/2017 20:21:19] "GET /please_read/_search HTTP/1.0" 404 3373
+Not Found: /dfshealth.jsp
+[29/Nov/2017 20:21:24] "GET /dfshealth.jsp HTTP/1.0" 404 3355
+Not Found: /hadoop/dfshealth.jsp
+[29/Nov/2017 20:21:25] "GET /hadoop/dfshealth.jsp HTTP/1.0" 404 3376
+Invalid HTTP_HOST header: '58dun.58.com'. You may need to add u'58dun.58.com' to ALLOWED_HOSTS.
+[29/Nov/2017 21:39:31] "GET /monum.html HTTP/1.0" 400 62477
+[29/Nov/2017 22:29:54] "GET / HTTP/1.0" 200 38
+[30/Nov/2017 01:28:02] "GET /admin HTTP/1.0" 301 0
+[30/Nov/2017 01:28:02] "GET /admin/ HTTP/1.0" 302 0
+[30/Nov/2017 01:28:02] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[30/Nov/2017 01:28:02] "GET /static/admin/css/base.css HTTP/1.0" 200 16066
+[30/Nov/2017 01:28:02] "GET /static/admin/css/login.css HTTP/1.0" 200 1203
+[30/Nov/2017 01:28:03] "GET /static/admin/css/fonts.css HTTP/1.0" 200 423
+[30/Nov/2017 01:28:03] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 200 80304
+[30/Nov/2017 01:28:03] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 200 81348
+[30/Nov/2017 01:28:10] "POST /admin/login/?next=/admin/ HTTP/1.0" 200 1810
+[30/Nov/2017 01:28:10] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 200 82564
+[30/Nov/2017 02:23:37] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[30/Nov/2017 02:23:37] "GET /admin/ HTTP/1.0" 200 6226
+[30/Nov/2017 02:23:37] "GET /static/admin/css/dashboard.css HTTP/1.0" 200 412
+[30/Nov/2017 02:23:37] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 200 331
+[30/Nov/2017 02:23:37] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 200 380
+[30/Nov/2017 02:23:58] "GET /admin/djcelery/crontabschedule/ HTTP/1.0" 200 4251
+[30/Nov/2017 02:23:58] "GET /static/admin/css/changelists.css HTTP/1.0" 200 6170
+[30/Nov/2017 02:23:58] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:23:58] "GET /static/admin/js/core.js HTTP/1.0" 200 7976
+[30/Nov/2017 02:23:58] "GET /static/admin/js/jquery.init.js HTTP/1.0" 200 363
+[30/Nov/2017 02:23:58] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 258648
+[30/Nov/2017 02:23:58] "GET /static/admin/js/actions.js HTTP/1.0" 200 6501
+[30/Nov/2017 02:23:58] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 6591
+[30/Nov/2017 02:23:58] "GET /static/admin/js/urlify.js HTTP/1.0" 200 8186
+[30/Nov/2017 02:23:58] "GET /static/admin/js/prepopulate.js HTTP/1.0" 200 1538
+[30/Nov/2017 02:23:58] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 200 128820
+[30/Nov/2017 02:24:00] "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 200 331
+[30/Nov/2017 02:24:05] "GET /admin/djcelery/crontabschedule/1/change/ HTTP/1.0" 200 6187
+[30/Nov/2017 02:24:05] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 200 495
+[30/Nov/2017 02:24:05] "GET /static/admin/css/forms.css HTTP/1.0" 200 8173
+[30/Nov/2017 02:24:05] "GET /static/admin/js/change_form.js HTTP/1.0" 200 712
+[30/Nov/2017 02:24:05] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:24:05] "GET /static/admin/css/widgets.css HTTP/1.0" 200 10340
+[30/Nov/2017 02:24:07] "GET /admin/djcelery/crontabschedule/ HTTP/1.0" 200 4251
+[30/Nov/2017 02:24:11] "GET /admin/djcelery/crontabschedule/add/ HTTP/1.0" 200 5937
+[30/Nov/2017 02:24:11] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:24:49] "GET /admin/djcelery/crontabschedule/ HTTP/1.0" 200 4251
+[30/Nov/2017 02:24:49] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:24:50] "GET /admin/djcelery/ HTTP/1.0" 200 3930
+[30/Nov/2017 02:24:51] "GET /admin/djcelery/taskstate/ HTTP/1.0" 200 5822
+[30/Nov/2017 02:24:51] "GET /static/djcelery/style.css HTTP/1.0" 200 82
+[30/Nov/2017 02:24:51] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:24:52] "GET /static/admin/img/search.svg HTTP/1.0" 200 458
+[30/Nov/2017 02:24:54] "GET /admin/djcelery/ HTTP/1.0" 200 3930
+[30/Nov/2017 02:24:55] "GET /admin/djcelery/workerstate/ HTTP/1.0" 200 3055
+[30/Nov/2017 02:24:55] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:24:57] "GET /admin/djcelery/workerstate/add/ HTTP/1.0" 200 4265
+[30/Nov/2017 02:24:57] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:25:05] "GET /admin/djcelery/workerstate/ HTTP/1.0" 200 3055
+[30/Nov/2017 02:25:32] "GET /admin/djcelery/ HTTP/1.0" 200 3930
+[30/Nov/2017 02:25:34] "GET /admin/djcelery/periodictask/ HTTP/1.0" 200 5954
+[30/Nov/2017 02:25:34] "GET /static/admin/img/icon-yes.svg HTTP/1.0" 200 436
+[30/Nov/2017 02:25:35] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:25:35] "GET /static/admin/img/sorting-icons.svg HTTP/1.0" 200 1097
+[30/Nov/2017 02:25:39] "GET /admin/djcelery/periodictask/add/ HTTP/1.0" 200 11652
+[30/Nov/2017 02:25:39] "GET /static/admin/js/calendar.js HTTP/1.0" 200 7790
+[30/Nov/2017 02:25:39] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:25:39] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 200 20529
+[30/Nov/2017 02:25:39] "GET /static/admin/js/collapse.js HTTP/1.0" 200 1151
+[30/Nov/2017 02:27:01] "GET /admin/djcelery/intervalschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 3607
+[30/Nov/2017 02:27:01] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:27:15] "POST /admin/djcelery/intervalschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 364
+[30/Nov/2017 02:27:15] "GET /static/admin/js/popup_response.js HTTP/1.0" 200 569
+[30/Nov/2017 02:27:22] "GET /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 4968
+[30/Nov/2017 02:27:22] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:27:42] "POST /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 378
+[30/Nov/2017 02:27:50] "POST /admin/djcelery/periodictask/add/ HTTP/1.0" 200 11966
+[30/Nov/2017 02:27:50] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:28:11] "POST /admin/djcelery/periodictask/add/ HTTP/1.0" 302 0
+[30/Nov/2017 02:28:11] "GET /admin/djcelery/periodictask/add/ HTTP/1.0" 200 12017
+[30/Nov/2017 02:28:11] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:28:58] "GET /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 4968
+[30/Nov/2017 02:28:58] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:29:04] "POST /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 379
+[30/Nov/2017 02:29:06] "POST /admin/djcelery/periodictask/add/ HTTP/1.0" 302 0
+[30/Nov/2017 02:29:07] "GET /admin/djcelery/periodictask/add/ HTTP/1.0" 200 12095
+[30/Nov/2017 02:29:07] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:29:25] "GET /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 4968
+[30/Nov/2017 02:29:25] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:29:30] "POST /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 380
+[30/Nov/2017 02:29:32] "POST /admin/djcelery/periodictask/add/ HTTP/1.0" 302 0
+[30/Nov/2017 02:29:32] "GET /admin/djcelery/periodictask/add/ HTTP/1.0" 200 12140
+[30/Nov/2017 02:29:32] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:30:09] "GET /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 4968
+[30/Nov/2017 02:30:09] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:30:16] "POST /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 379
+[30/Nov/2017 02:30:20] "POST /admin/djcelery/periodictask/add/ HTTP/1.0" 302 0
+[30/Nov/2017 02:30:21] "GET /admin/djcelery/periodictask/add/ HTTP/1.0" 200 12196
+[30/Nov/2017 02:30:21] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:30:35] "GET /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 4968
+[30/Nov/2017 02:30:35] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:30:43] "POST /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 380
+[30/Nov/2017 02:30:45] "POST /admin/djcelery/periodictask/add/ HTTP/1.0" 302 0
+[30/Nov/2017 02:30:46] "GET /admin/djcelery/periodictask/ HTTP/1.0" 200 9150
+[30/Nov/2017 02:30:46] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:31:07] "GET /admin/djcelery/periodictask/2/change/ HTTP/1.0" 200 12314
+[30/Nov/2017 02:31:07] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:31:16] "GET /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 4968
+[30/Nov/2017 02:31:16] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:31:21] "POST /admin/djcelery/crontabschedule/add/?_to_field=id&_popup=1 HTTP/1.0" 200 379
+[30/Nov/2017 02:31:24] "POST /admin/djcelery/periodictask/2/change/ HTTP/1.0" 302 0
+[30/Nov/2017 02:31:24] "GET /admin/djcelery/periodictask/ HTTP/1.0" 200 9168
+[30/Nov/2017 02:31:24] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:31:36] "GET /admin/djcelery/ HTTP/1.0" 200 3930
+[30/Nov/2017 02:31:40] "GET /admin/djcelery/workerstate/ HTTP/1.0" 200 3055
+[30/Nov/2017 02:31:40] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:31:41] "GET /admin/djcelery/workerstate/add/ HTTP/1.0" 200 4265
+[30/Nov/2017 02:31:41] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:36:16] "POST /admin/djcelery/workerstate/add/ HTTP/1.0" 302 0
+[30/Nov/2017 02:36:16] "GET /admin/djcelery/workerstate/ HTTP/1.0" 200 5084
+[30/Nov/2017 02:36:16] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:36:21] "GET /admin/djcelery/workerstate/1/change/ HTTP/1.0" 200 4422
+[30/Nov/2017 02:36:21] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:36:24] "GET /admin/djcelery/workerstate/1/history/ HTTP/1.0" 200 2135
+[30/Nov/2017 02:36:27] "GET /admin/djcelery/workerstate/1/change/ HTTP/1.0" 200 4422
+[30/Nov/2017 02:36:29] "GET /admin/djcelery/workerstate/1/change/ HTTP/1.0" 200 4422
+[30/Nov/2017 02:36:29] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:36:29] "GET /admin/djcelery/workerstate/1/change/ HTTP/1.0" 200 4422
+[30/Nov/2017 02:36:29] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:36:30] "GET /admin/djcelery/workerstate/1/change/ HTTP/1.0" 200 4422
+[30/Nov/2017 02:36:30] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:36:30] "GET /admin/djcelery/workerstate/1/change/ HTTP/1.0" 200 4422
+[30/Nov/2017 02:36:30] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:36:32] "GET /admin/djcelery/workerstate/ HTTP/1.0" 200 4880
+[30/Nov/2017 02:36:32] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 02:36:33] "GET /admin/djcelery/ HTTP/1.0" 200 3930
+[30/Nov/2017 02:39:11] "GET /admin/ HTTP/1.0" 200 9585
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 29, 2017 - 09:16:14
+Django version 1.11.7, using settings 'personal.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f9bfcba1aa0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 103, in <module>
+    class Group(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 162, in __new__
+    new_class.add_to_class(obj_name, obj)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 325, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related.py", line 1648, in contribute_to_class
+    self.remote_field.through = create_many_to_many_intermediary_model(self, cls)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related.py", line 1104, in create_many_to_many_intermediary_model
+    'verbose_name': _('%(from)s-%(to)s relationship') % {'from': from_, 'to': to},
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 162, in __mod__
+    return six.text_type(self) % rhs
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 119, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 89, in ugettext
+    return _trans.ugettext(message)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 345, in ugettext
+    return do_translate(message, 'ugettext')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 321, in do_translate
+    _default = _default or translation(settings.LANGUAGE_CODE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 228, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 134, in __init__
+    raise IOError("No translation files found for default language %s." % settings.LANGUAGE_CODE)
+IOError: No translation files found for default language Asia/Shanghai.
+Unhandled exception in thread started by <function wrapper at 0x7f0885bc8aa0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 103, in <module>
+    class Group(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 162, in __new__
+    new_class.add_to_class(obj_name, obj)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 325, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related.py", line 1648, in contribute_to_class
+    self.remote_field.through = create_many_to_many_intermediary_model(self, cls)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related.py", line 1104, in create_many_to_many_intermediary_model
+    'verbose_name': _('%(from)s-%(to)s relationship') % {'from': from_, 'to': to},
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 162, in __mod__
+    return six.text_type(self) % rhs
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 119, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 89, in ugettext
+    return _trans.ugettext(message)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 345, in ugettext
+    return do_translate(message, 'ugettext')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 321, in do_translate
+    _default = _default or translation(settings.LANGUAGE_CODE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 228, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 134, in __init__
+    raise IOError("No translation files found for default language %s." % settings.LANGUAGE_CODE)
+IOError: No translation files found for default language Asia/Shanghai.
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[30/Nov/2017 10:44:33] "GET /cache/global/img/gs.gif HTTP/1.0" 400 62421
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2017 - 10:42:09
+Django version 1.11.7, using settings 'personal.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2017 - 10:44:46
+Django version 1.11.7, using settings 'personal.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[30/Nov/2017 11:03:51] "GET / HTTP/1.0" 200 38
+[30/Nov/2017 11:20:59] "GET / HTTP/1.0" 200 38
+Not Found: /rs-status
+[30/Nov/2017 11:24:45] "GET /rs-status HTTP/1.0" 404 3343
+Not Found: /ganglia/index.php
+[30/Nov/2017 11:27:02] "GET /ganglia/index.php HTTP/1.0" 404 3367
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:04] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:05] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:05] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:05] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:05] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:05] "GET /phpmyadmin/ HTTP/1.0" 404 3349
+Not Found: /phpmyadmin/
+[30/Nov/2017 11:27:05] "POST /phpmyadmin/ HTTP/1.0" 404 3350
+Not Found: /index.php
+[30/Nov/2017 11:48:35] "GET /index.php HTTP/1.0" 404 3343
+Not Found: /jobs/
+[30/Nov/2017 12:11:18] "GET /jobs/ HTTP/1.0" 404 3331
+[30/Nov/2017 12:17:30] "GET / HTTP/1.0" 200 41
+Not Found: /idswxgyfokct
+[30/Nov/2017 12:20:16] "POST /idswxgyfokct HTTP/1.0" 404 3353
+Not Found: /idswxgyfokct
+[30/Nov/2017 12:20:16] "GET /idswxgyfokct HTTP/1.0" 404 3352
+Not Found: /idswxgyfokct
+[30/Nov/2017 12:20:17] "DELETE /idswxgyfokct HTTP/1.0" 404 3355
+[30/Nov/2017 12:27:00] "GET / HTTP/1.0" 200 41
+[30/Nov/2017 12:35:18] "GET / HTTP/1.0" 200 41
+Not Found: /hwi/
+[30/Nov/2017 12:41:52] "GET /hwi/ HTTP/1.0" 404 3328
+[30/Nov/2017 13:13:54] "GET / HTTP/1.0" 200 41
+Not Found: /master-status
+[30/Nov/2017 13:16:33] "GET /master-status HTTP/1.0" 404 3355
+Not Found: /dfshealth.html
+[30/Nov/2017 13:16:35] "GET /dfshealth.html HTTP/1.0" 404 3358
+Not Found: /http://47.93.254.47:8080
+[30/Nov/2017 13:16:41] "GET /http://47.93.254.47:8080 HTTP/1.0" 404 3388
+Not Found: /http://47.93.254.47:8081
+[30/Nov/2017 13:16:44] "GET /http://47.93.254.47:8081 HTTP/1.0" 404 3388
+Not Found: /http://47.93.254.47:8090
+[30/Nov/2017 13:16:45] "GET /http://47.93.254.47:8090 HTTP/1.0" 404 3388
+Not Found: /clusters.jsf
+[30/Nov/2017 13:16:50] "GET /clusters.jsf HTTP/1.0" 404 3352
+Not Found: /about/
+[30/Nov/2017 13:16:56] "GET /about/ HTTP/1.0" 404 3334
+[30/Nov/2017 13:17:01] "GET / HTTP/1.0" 200 41
+Not Found: /jenkins/
+[30/Nov/2017 13:17:07] "GET /jenkins/ HTTP/1.0" 404 3340
+Not Found: /zabbix/
+[30/Nov/2017 13:17:10] "GET /zabbix/ HTTP/1.0" 404 3337
+[30/Nov/2017 13:17:11] "GET / HTTP/1.0" 200 41
+Not Found: /solr/
+[30/Nov/2017 13:17:13] "GET /solr/ HTTP/1.0" 404 3331
+[30/Nov/2017 13:17:14] "GET / HTTP/1.0" 200 41
+Not Found: /info
+[30/Nov/2017 13:17:21] "GET /info HTTP/1.0" 404 3328
+Not Found: /warning
+[30/Nov/2017 13:28:07] "GET /warning HTTP/1.0" 404 3337
+Not Found: /pleasereadthis
+[30/Nov/2017 13:32:10] "GET /pleasereadthis HTTP/1.0" 404 3358
+Not Found: /please_read/_search
+[30/Nov/2017 13:44:20] "GET /please_read/_search HTTP/1.0" 404 3373
+Not Found: /dfshealth.jsp
+[30/Nov/2017 13:46:26] "GET /dfshealth.jsp HTTP/1.0" 404 3355
+Not Found: /hadoop/dfshealth.jsp
+[30/Nov/2017 13:46:59] "GET /hadoop/dfshealth.jsp HTTP/1.0" 404 3376
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2017 - 10:48:32
+Django version 1.11.7, using settings 'personal.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[30/Nov/2017 14:10:45] "GET /admin/djcelery/periodictask/ HTTP/1.0" 200 8925
+[30/Nov/2017 14:10:45] "GET /static/admin/css/base.css HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/css/changelists.css HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[30/Nov/2017 14:10:45] "GET /static/admin/css/fonts.css HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/img/search.svg HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/img/icon-yes.svg HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 304 0
+[30/Nov/2017 14:10:45] "GET /static/admin/img/sorting-icons.svg HTTP/1.0" 304 0
