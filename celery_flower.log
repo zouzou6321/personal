@@ -1,0 +1,150 @@
+[I 171129 09:08:46 command:139] Visit me at http://localhost:5555
+[I 171129 09:08:46 command:144] Broker: django://localhost//
+[I 171129 09:08:46 command:147] Registered tasks: 
+    ['celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap',
+     'utils.StockData.load_func',
+     'utils.StockNumber.load_all_stock_number']
+[I 171129 09:08:46 mixins:231] Connected to django://localhost//
+[W 171129 09:08:57 control:44] 'stats' inspect method failed
+[W 171129 09:08:57 control:44] 'active_queues' inspect method failed
+[W 171129 09:08:57 control:44] 'registered' inspect method failed
+[W 171129 09:08:57 control:44] 'scheduled' inspect method failed
+[W 171129 09:08:57 control:44] 'active' inspect method failed
+[W 171129 09:08:57 control:44] 'reserved' inspect method failed
+[W 171129 09:08:57 control:44] 'revoked' inspect method failed
+[W 171129 09:08:57 control:44] 'conf' inspect method failed
+[I 171129 09:14:56 command:139] Visit me at http://localhost:5555
+[I 171129 09:14:56 command:144] Broker: django://localhost:8000//
+[I 171129 09:14:56 command:147] Registered tasks: 
+    ['celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap',
+     'utils.StockData.load_func',
+     'utils.StockNumber.load_all_stock_number']
+[I 171129 09:14:56 mixins:231] Connected to django://localhost:8000//
+[W 171129 09:15:06 control:44] 'stats' inspect method failed
+[W 171129 09:15:06 control:44] 'active_queues' inspect method failed
+[W 171129 09:15:06 control:44] 'registered' inspect method failed
+[W 171129 09:15:06 control:44] 'scheduled' inspect method failed
+[W 171129 09:15:06 control:44] 'active' inspect method failed
+[W 171129 09:15:06 control:44] 'reserved' inspect method failed
+[W 171129 09:15:06 control:44] 'revoked' inspect method failed
+[W 171129 09:15:06 control:44] 'conf' inspect method failed
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 364, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 338, in execute
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 103, in <module>
+    class Group(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 162, in __new__
+    new_class.add_to_class(obj_name, obj)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 325, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related.py", line 1648, in contribute_to_class
+    self.remote_field.through = create_many_to_many_intermediary_model(self, cls)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related.py", line 1104, in create_many_to_many_intermediary_model
+    'verbose_name': _('%(from)s-%(to)s relationship') % {'from': from_, 'to': to},
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 162, in __mod__
+    return six.text_type(self) % rhs
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 119, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 89, in ugettext
+    return _trans.ugettext(message)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 345, in ugettext
+    return do_translate(message, 'ugettext')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 321, in do_translate
+    _default = _default or translation(settings.LANGUAGE_CODE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 228, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 134, in __init__
+    raise IOError("No translation files found for default language %s." % settings.LANGUAGE_CODE)
+IOError: No translation files found for default language Asia/Shanghai.
+[I 171130 10:42:09 command:139] Visit me at http://localhost:5555
+[I 171130 10:42:09 command:144] Broker: django://localhost:8000//
+[I 171130 10:42:09 command:147] Registered tasks: 
+    ['celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap',
+     'utils.StockData.load_func',
+     'utils.StockNumber.load_all_stock_number']
+[I 171130 10:42:09 mixins:231] Connected to django://localhost:8000//
+[W 171130 10:42:19 control:44] 'stats' inspect method failed
+[W 171130 10:42:19 control:44] 'active_queues' inspect method failed
+[W 171130 10:42:19 control:44] 'registered' inspect method failed
+[W 171130 10:42:19 control:44] 'scheduled' inspect method failed
+[W 171130 10:42:19 control:44] 'active' inspect method failed
+[W 171130 10:42:19 control:44] 'reserved' inspect method failed
+[W 171130 10:42:19 control:44] 'revoked' inspect method failed
+[W 171130 10:42:19 control:44] 'conf' inspect method failed
+[I 171130 10:44:45 command:139] Visit me at http://localhost:5555
+[I 171130 10:44:45 command:144] Broker: django://localhost//
+[I 171130 10:44:45 command:147] Registered tasks: 
+    ['celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap',
+     'utils.StockData.load_func',
+     'utils.StockNumber.load_all_stock_number']
+[I 171130 10:44:45 mixins:231] Connected to django://localhost//
+[W 171130 10:44:55 control:44] 'stats' inspect method failed
+[W 171130 10:44:55 control:44] 'active_queues' inspect method failed
+[W 171130 10:44:55 control:44] 'registered' inspect method failed
+[W 171130 10:44:55 control:44] 'scheduled' inspect method failed
+[W 171130 10:44:55 control:44] 'active' inspect method failed
+[W 171130 10:44:55 control:44] 'reserved' inspect method failed
+[W 171130 10:44:55 control:44] 'revoked' inspect method failed
+[W 171130 10:44:55 control:44] 'conf' inspect method failed
+[I 171130 10:48:31 command:139] Visit me at http://localhost:5555
+[I 171130 10:48:31 command:144] Broker: amqp://guest:**@localhost:5672//
+[I 171130 10:48:31 command:147] Registered tasks: 
+    ['celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap',
+     'utils.StockData.load_func',
+     'utils.StockNumber.load_all_stock_number']
+[I 171130 10:48:31 mixins:231] Connected to amqp://guest:**@127.0.0.1:5672//
+[W 171130 10:48:33 control:44] 'stats' inspect method failed
+[W 171130 10:48:33 control:44] 'active_queues' inspect method failed
+[W 171130 10:48:33 control:44] 'registered' inspect method failed
+[W 171130 10:48:33 control:44] 'scheduled' inspect method failed
+[W 171130 10:48:33 control:44] 'active' inspect method failed
+[W 171130 10:48:33 control:44] 'reserved' inspect method failed
+[W 171130 10:48:33 control:44] 'revoked' inspect method failed
+[W 171130 10:48:33 control:44] 'conf' inspect method failed
