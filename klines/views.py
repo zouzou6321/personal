@@ -22,4 +22,4 @@ def swing_top(request):
 	for a in decrease:
 		print a
 		res.append(a)
-	return HttpResponse('1111')
+	return HttpResponse(res)
