@@ -1,5 +1,8 @@
 # -*- coding:utf-8 -*-
 from django.db import models
+from decimal import Decimal
+from datetime import datetime
+import json
 
 # Create your models here.
 
@@ -10,6 +13,18 @@ class Quote(models.Model):
 	name = models.CharField(max_length=126, null=False)
 	create_time = models.DateTimeField(auto_now_add=True, null=True, blank=True)
 	update_time = models.DateTimeField(auto_now=True, null=True, blank=True)
+
+	def to_json(self):
+		fields = []
+		for field in self._meta.fields:
+			fields.append(field.name)
+
+		d = {}
+		for attr in fields:
+			d[attr] = getattr(self, attr)
+			if isinstance(d[attr], Decimal) or isinstance(d[attr], datetime):
+				d[attr] = str(d[attr])
+		return json.dumps(d, ensure_ascii=False)
 
 	@classmethod
 	def instance(cls, stock_number, number, name):
@@ -55,6 +70,18 @@ class RealTimeStockData(models.Model):
 	data_time = models.CharField(max_length=8)
 	create_time = models.DateTimeField(auto_now_add=True, null=True, blank=True)
 	update_time = models.DateTimeField(auto_now=True, null=True, blank=True)
+
+	def to_json(self):
+		fields = []
+		for field in self._meta.fields:
+			fields.append(field.name)
+
+		d = {}
+		for attr in fields:
+			d[attr] = getattr(self, attr)
+			if isinstance(d[attr], Decimal) or isinstance(d[attr], datetime):
+				d[attr] = str(d[attr])
+		return json.dumps(d, ensure_ascii=False)
 
 	@classmethod
 	def instance(cls, data=[]):
