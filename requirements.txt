@@ -9,7 +9,7 @@ cloud-init==0.7.6
 configobj==5.0.6
 Django==1.11.7
 django-celery==3.2.2
-djangorestframework==3.7.3
+djangorestframework==3.11.2
 idna==2.6
 Jinja2==2.9.6
 jsonpatch==1.16
